@@ -1,5 +1,11 @@
 # react_vite_template
 
-To test the application using Cypress enter the command
+## Cypress
+
+Install cypress in the local server using,
+
+cypress install
+
+Test the react application using,
 
 npx cypress open
