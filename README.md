@@ -1,3 +1,3 @@
 # react_vite_template
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-vite-template?file=src/App.jsx)
+To test the application using Cypress enter the command "npx cypress open"
