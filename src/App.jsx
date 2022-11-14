@@ -11,14 +11,12 @@ function App() {
   const ctx = useContext(AuthContext);
 
   return (
-    <Fragment className="App">
-      {/* 
-      <MainHeader />
+    <Fragment>
+      {/* <MainHeader />
       <main>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
-      </main> 
-      */}
+      </main> */}
       <h2>Expense item!</h2>
       <Demo />
     </Fragment>
