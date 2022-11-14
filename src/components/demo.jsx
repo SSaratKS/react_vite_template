@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import reactLogo from '../assets/react.svg';
+import Wrapper from './Helpers/Wrapper';
 
 function Demo(props) {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <Wrapper>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -20,13 +21,13 @@ function Demo(props) {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/components/demo.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </div>
+    </Wrapper>
   );
 }
 
