@@ -13,13 +13,13 @@ function App() {
 
   return (
     <Fragment>
-      <MainHeader />
+      {/* <MainHeader />
       <main>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
-      </main>
+      </main> */}
 
-      <h2>Expense item!</h2>
+      <h2>Demo Modal</h2>
       <Demo />
     </Fragment>
   );
