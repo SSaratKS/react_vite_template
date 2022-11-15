@@ -1,6 +1,7 @@
 import './App.css';
-import Demo from './components/demo';
 import React, { useContext, useState, Fragment } from 'react';
+
+import Demo from './components/demo';
 
 import Login from './components/Login/Login';
 import Home from './components/Home/Home';
@@ -12,11 +13,12 @@ function App() {
 
   return (
     <Fragment>
-      {/* <MainHeader />
+      <MainHeader />
       <main>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
-      </main> */}
+      </main>
+
       <h2>Expense item!</h2>
       <Demo />
     </Fragment>
